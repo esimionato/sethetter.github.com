@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="The web presence of Benjamin Egelund-Müller. Thoughts on technology, app development, and more." />
+	<meta name="keywords" content="ios, ruby, technology, development, iphone, cococa, apple, teen" />
+	<meta name="author" content="Benjamin Egelund-Müller" />
+	
+	<title>{{ page.title }}</title>
+	
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+	<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/bnjmn" />
+	<link rel="shortcut icon" href="/images/favicon.png" />
+</head>
+<body>
+<a class="link_no_style" href="/">
+	<header id="page_header">
+		<hgroup>
+			<h1 id="header_title">{{ site.title }}</h1>
+			<!-- <h2 id="header_tagline">{{ site.tagline }}</h2> -->
+		</hgroup>
+	</header>
+</a>
+	
+	<section id="about_section">
+		<!-- <aside id="about_description">
+					<p>Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor.</p>
+				</aside> -->
+		<nav>
+			<ul id="links">
+				<li><a href="/">Home</a></li>
+				<li><a href="/archive">Archive</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/hire">Hire</a></li>
+				<li><a href="{{ site.feedburner_url }}">Feed</a></li>
+				<li><a href="{{ site.twitter_url }}">Twitter</a></li>
+			</ul>
+		</nav>
+	</section>
+	
+	<section id="content_section">
+		{{ content }}
+	</section>
+
+	<footer id="page_footer">
+		<ul>
+			<li>Coded on a late night, 2011</li>
+			<li>Powered by <a href="http://jekyllrb.com/">Jekyll</a></li>
+			<li>Hosted on <a href="http://heroku.com/">Heroku</a></li>
+		</ul>
+	</footer>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26718687-1']);
+	  _gaq.push(['_setDomainName', 'bnjmn.org']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>

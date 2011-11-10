@@ -1,0 +1,13 @@
+markdown: maruku
+pygments: true
+
+permalink: /:year/:month/:title/
+exclude: []
+
+title: 'Benjamin Egelund-Müller'
+email: 'b.em@me.com'
+twitter_url: 'http://twitter.com/bnmuller'
+feedburner_url: 'http://feeds.feedburner.com/bnjmn'
+
+# Tagline disabled for now. Uncomment here and in _layouts/default.html to enable.
+# tagline: "It is no use thinking small"
