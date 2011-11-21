@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About Seth - i talk too much (dot) com
 permalink: /about/
 ---
 

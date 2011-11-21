@@ -224,7 +224,7 @@ nav li a:active {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #6a6a6a;
+  border-bottom: 1px solid #9d9d9d;
 }
 /* line 54, ../sass/screen.scss */
 .article-header h1 {
