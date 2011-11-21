@@ -1,27 +1,18 @@
 ---
 layout: post
-title: A Test Blog Post
+title: My New Blogging Home
 categories: [ beginning, blogging ]
 ---
 
-Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor lectus enim vivamus. Integer nec sociosqu molestias mattis placerat, vivamus nisl maecenas massa lorem, sollicitudin dictumst mollis mi morbi duis, quis senectus vehicula interdum. Eros at purus nulla, condimentum aenean ligula nam, in integer vitae hendrerit augue lacinia, libero a lectus ut mi et in, nibh in libero ac massa id leo. Vestibulum fusce, commodo praesent sem ligula ante vestibulum litora, vestibulum felis sit aenean condimentum luctus, hymenaeos mauris, cursus nulla pellentesque pede orci non. Vivamus velit lacinia ullamcorper. Vestibulum aliquet mi a, cursus ut at. Suspendisse nulla lacus ipsum rhoncus arcu nam, non sapien ligula.
+I've decided to move all my blogging and writing efforts to one location, here at italktoomuch.com. It seems like the best thing to do for me. Having my blogging focused between two areas (sethetter.com and italktoomuch.com) wasn't working out well. I just ended up not posting anything to either place.
 
+So here I am at one domain. My personal website (sethetter.com) will be used for promoting my freelance services and my personal work portfolio. This domain will house all my writing and blogging on all topics.
 
-A Test h2 Title
----------------
+Speaking of topics
+------------------
 
-Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor lectus enim vivamus. Integer nec sociosqu molestias mattis placerat, vivamus nisl maecenas massa lorem, sollicitudin dictumst mollis mi morbi duis, quis senectus vehicula interdum. Eros at purus nulla, condimentum aenean ligula nam, in integer vitae hendrerit augue lacinia, libero a lectus ut mi et in, nibh in libero ac massa id leo. Vestibulum fusce, commodo praesent sem ligula ante vestibulum litora, vestibulum felis sit aenean condimentum luctus, hymenaeos mauris, cursus nulla pellentesque pede orci non. Vivamus velit lacinia ullamcorper. Vestibulum aliquet mi a, cursus ut at. Suspendisse nulla lacus ipsum rhoncus arcu nam, non sapien ligula.
+I'm personally interested in quite a variety of things, so it's likely that I will be talking about a lot of different subjects. Although the majority of the writing will be focused on web development, other areas I may venture into are music, design, games, and maybe even some personal ethical stances here and there as well.
 
-### A Test h3 Title ###
+#### Basically I'm going to talk about whatever I want to here. ####
 
-Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor lectus enim vivamus. Integer nec sociosqu molestias mattis placerat, vivamus nisl maecenas massa lorem, sollicitudin dictumst mollis mi morbi duis, quis senectus vehicula interdum. `[[UIView alloc] initWithAutoreleasePool:self.pool]` eros at purus nulla, condimentum aenean ligula nam, in integer vitae hendrerit augue lacinia, libero a lectus ut mi et in, nibh in libero ac massa id leo. Vestibulum fusce, commodo praesent sem ligula ante vestibulum litora, vestibulum felis sit aenean condimentum luctus, hymenaeos mauris, cursus nulla pellentesque pede orci non. Vivamus velit lacinia ullamcorper. `git add .` vestibulum aliquet mi a, cursus ut at. Suspendisse nulla lacus ipsum rhoncus arcu nam, non sapien ligula. 
-
-	some test code
-	cat *.txt > all.txt
-	git add .
-	
-Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor lectus enim vivamus. Integer nec sociosqu molestias mattis placerat, vivamus nisl maecenas massa lorem, sollicitudin dictumst mollis mi morbi duis, quis senectus vehicula interdum.
-
-#### A Test h4 Title ####
-
-Lorem ipsum dolor sit amet, ligula integer, varius libero, pharetra ante in lorem lorem, eleifend libero tortor, rutrum porttitor auctor lectus enim vivamus. Integer nec sociosqu molestias mattis placerat, vivamus nisl maecenas massa lorem, sollicitudin dictumst mollis mi morbi duis, quis senectus vehicula interdum. Eros at purus nulla, condimentum aenean ligula nam, in integer vitae hendrerit augue lacinia, libero a lectus ut mi et in, nibh in libero ac massa id leo. Vestibulum fusce, commodo praesent sem ligula ante vestibulum litora, vestibulum felis sit aenean condimentum luctus, hymenaeos mauris, cursus nulla pellentesque pede orci non. Vivamus velit lacinia ullamcorper. Vestibulum aliquet mi a, cursus ut at. Suspendisse nulla lacus ipsum rhoncus arcu nam, non sapien ligula.
+Hence the name. I've been labeled as a talked since before I could even speak words, and this is my outler. If you can get something out of it, awesome. If not, then I'm not sure what to tell you. Thanks for stopping by anyways :)

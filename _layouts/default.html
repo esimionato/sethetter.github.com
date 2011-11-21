@@ -17,7 +17,7 @@
 	<header id="page_header">
 		<hgroup>
 			<h1 id="header_title">{{ site.title }}</h1>
-			<!-- <h2 id="header_tagline">{{ site.tagline }}</h2> -->
+			<h2 id="header_tagline">{{ site.tagline }}</h2>
 		</hgroup>
 	</header>
 </a>
@@ -31,7 +31,6 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="/archive">Archive</a></li>
 				<li><a href="/about">About</a></li>
-				<li><a href="/hire">Hire</a></li>
 				<li><a href="{{ site.feedburner_url }}">Feed</a></li>
 				<li><a href="{{ site.twitter_url }}">Twitter</a></li>
 			</ul>
@@ -44,25 +43,11 @@
 
 	<footer id="page_footer">
 		<ul>
-			<li>Coded on a late night, 2011</li>
+			<li>Created and maintained by <a href="http://sethetter.com" title="Seth Etter Homepage">Seth Etter</a>.</li>
 			<li>Powered by <a href="http://jekyllrb.com/">Jekyll</a></li>
 			<li>Hosted on <a href="http://heroku.com/">Heroku</a></li>
 		</ul>
 	</footer>
 	
-	<script type="text/javascript">
-
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-26718687-1']);
-	  _gaq.push(['_setDomainName', 'bnjmn.org']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
 </body>
 </html>
