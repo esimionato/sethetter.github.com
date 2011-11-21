@@ -1,7 +1,7 @@
 markdown: maruku
 pygments: true
 
-permalink: /:title/
+permalink: /:year/:month/:title/
 exclude: []
 
 title: 'i talk too much'

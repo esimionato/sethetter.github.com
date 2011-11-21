@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+<title>i talk too much</title>
+<subtitle>Ramblings on code, tech, design, music, and some other stuff. By Seth Etter.</subtitle>
+<icon>/images/favicon.png</icon>
+<link href="http://bnjmn.org/" />
+<link href="http://bnjmn.org/atom.xml" rel="self" />
+<updated>2011-11-21T06:23:46-06:00</updated>
+<id>http://italktoomuch.com/</id>
+<author>
+	<name>i talk too much</name>
+	<email>sethetter@gmail.com</email>
+</author>
+
+
+	<entry>
+		<title>My New Blogging Hub</title>
+		<link href="http://bnjmn.org/2011/11/my-new-blogging-hub/" />
+		<updated>2011-11-20T00:00:00-06:00</updated>
+		<id>http://italktoomuch.com//2011/11/my-new-blogging-hub</id>
+		<content type="html">&lt;p&gt;I&amp;#8217;ve decided to move all my blogging and writing efforts to one location, here at italktoomuch.com. It seems like the best thing to do for me. Having my blogging focused between two areas (sethetter.com and italktoomuch.com) wasn&amp;#8217;t working out well. I just ended up not posting anything to either place.&lt;/p&gt;
+
+&lt;p&gt;So here I am at one domain. My personal website (sethetter.com) will be used for promoting my freelance services and my personal work portfolio. This domain will house all my writing and blogging on all topics.&lt;/p&gt;
+
+&lt;h2 id='speaking_of_topics'&gt;Speaking of topics&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#8217;m personally interested in quite a variety of things, so it&amp;#8217;s likely that I will be talking about a lot of different subjects. Although the majority of the writing will be focused on web development, other areas I may venture into are music, design, games, and maybe even some personal ethical stances here and there as well.&lt;/p&gt;
+
+&lt;h4 id='basically_im_going_to_talk_about_whatever_i_want_to_here'&gt;Basically I&amp;#8217;m going to talk about whatever I want to here.&lt;/h4&gt;
+
+&lt;p&gt;Hence the name. I&amp;#8217;ve been labeled as a talked since before I could even speak words, and this is my outler. If you can get something out of it, awesome. If not, then I&amp;#8217;m not sure what to tell you. Thanks for stopping by anyways :)&lt;/p&gt;</content>
+	</entry>
+
+ 
+</feed>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My New Blogging Home
+title: My New Blogging Hub
 categories: [ beginning, blogging ]
 ---
 
