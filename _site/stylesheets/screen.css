@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /** VARIABLES **/
 /** ELEMENT STYLES **/
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 body {
   background: #f1f1f1;
   padding: 30px 20px;
@@ -76,95 +76,99 @@ body {
   color: #444444;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 a {
-  color: #818132;
+  color: #5c5c24;
   text-decoration: none;
 }
 /* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
-  color: #818132;
+  color: #5c5c24;
 }
 /* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
-  color: #a5a540;
+  color: #818132;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 a.link_no_style {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a.link_no_style:visited {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a.link_no_style:focus {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a.link_no_style:hover {
-  color: #a5a540;
+  color: #818132;
 }
 /* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a.link_no_style:active {
-  color: #a5a540;
-}
-
-/* line 28, ../sass/screen.scss */
-h1, h2, h3, h4 {
-  font-weight: bold;
-  margin: 1.4em 0 1em 0;
-  font-family: “Courier New”, Courier, monospace;
+  color: #818132;
 }
 
 /* line 29, ../sass/screen.scss */
-h1 {
-  font-size: 2.5em;
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin-top: 1.5em;
+  font-family: Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;
 }
 
 /* line 30, ../sass/screen.scss */
-h2 {
-  font-size: 1.7em;
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
 }
 
 /* line 31, ../sass/screen.scss */
-h3 {
-  font-size: 1.2em;
+h2 {
+  font-size: 1.9em;
+  margin-bottom: 0.1em;
 }
 
 /* line 32, ../sass/screen.scss */
-h4 {
-  font-size: 1.1em;
+h3 {
+  font-size: 1.4em;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
+h4 {
+  font-size: 1.3em;
+}
+
+/* line 35, ../sass/screen.scss */
 p {
-  margin: 1em 0 0.75em 0;
+  margin-top: 1.2em;
 }
 
 /** LAYOUT STYLES **/
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 #page-header h1 {
   font-size: 5em;
-  margin: 20px 0;
-  text-shadow: #888888 2px 2px 6px;
+  margin: 30px 0 15px;
+  text-shadow: #333333 3px 3px 0px;
 }
-/* line 39, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 #page-header h2 {
-  color: #444444;
-  font-size: 0.9em;
+  color: #5e5e5e;
+  font-size: 1em;
+  padding: 10px 2px;
+  margin-top: 10px;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 nav {
   font-size: 0.9em;
   padding: 10px;
@@ -175,15 +179,26 @@ nav {
   -ms-border-radius: 5px;
   -khtml-border-radius: 5px;
   border-radius: 5px;
-  background: #444444;
+  margin-bottom: 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #515151));
+  background-image: -webkit-linear-gradient(#777777, #515151);
+  background-image: -moz-linear-gradient(#777777, #515151);
+  background-image: -o-linear-gradient(#777777, #515151);
+  background-image: -ms-linear-gradient(#777777, #515151);
+  background-image: linear-gradient(#777777, #515151);
 }
-/* line 44, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 47, ../sass/screen.scss */
 nav li {
   display: inline;
   list-style: none;
   padding: 0 15px;
 }
-/* line 45, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 nav li a {
   color: #f1f1f1;
 }
@@ -204,26 +219,89 @@ nav li a:active {
   color: #d7d7d7;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .article-header {
   position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #6a6a6a;
 }
-/* line 51, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
+.article-header h1 {
+  padding-top: 10px;
+}
+/* line 55, ../sass/screen.scss */
 .article-header time {
-  float: right;
-  background: #bebebe;
+  float: left;
+  background: #d7d7d7;
   color: #444444;
-  font-weight: bold;
+  border: 1px solid #a4a4a4;
   padding: 10px;
-  width: 80px;
-  font-family: “Courier New”, Courier, monospace;
-  font-size: 0.7em;
+  font-family: Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;
+  font-size: 0.8em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
   -khtml-border-radius: 5px;
   border-radius: 5px;
+  margin: 0 15px 0 0;
+}
+
+/* line 58, ../sass/screen.scss */
+.article-separator {
+  border-top: 1px solid #d7d7d7;
+  height: 10px;
+}
+
+/* line 60, ../sass/screen.scss */
+#page-footer {
+  padding: 15px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #515151));
+  background-image: -webkit-linear-gradient(#777777, #515151);
+  background-image: -moz-linear-gradient(#777777, #515151);
+  background-image: -o-linear-gradient(#777777, #515151);
+  background-image: -ms-linear-gradient(#777777, #515151);
+  background-image: linear-gradient(#777777, #515151);
+  color: #f1f1f1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  margin: 50px 0 30px 0;
+}
+/* line 61, ../sass/screen.scss */
+#page-footer ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 62, ../sass/screen.scss */
+#page-footer li {
+  list-style: none;
+  display: inline;
+  padding: 0 30px 0 0;
+}
+/* line 63, ../sass/screen.scss */
+#page-footer a {
+  color: #f1f1f1;
+}
+/* line 18, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#page-footer a:visited {
+  color: #f1f1f1;
+}
+/* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#page-footer a:focus {
+  color: #d7d7d7;
+}
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#page-footer a:hover {
+  color: #d7d7d7;
+}
+/* line 27, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#page-footer a:active {
+  color: #d7d7d7;
 }
 
 /* line 51, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */

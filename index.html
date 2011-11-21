@@ -8,7 +8,7 @@ title: Home
 
 		<header class="article-header">
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-				{{ post.date | date_to_string }}
+				{{ post.date | date: '%m-%d-%y' }}
 			</time>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 		</header>

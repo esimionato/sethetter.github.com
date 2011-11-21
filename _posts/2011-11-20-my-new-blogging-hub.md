@@ -8,7 +8,7 @@ I've decided to move all my blogging and writing efforts to one location, here a
 
 So here I am at one domain. My personal website (sethetter.com) will be used for promoting my freelance services and my personal work portfolio. This domain will house all my writing and blogging on all topics.
 
-Speaking of topics
+Speaking Of Topics
 ------------------
 
 I'm personally interested in quite a variety of things, so it's likely that I will be talking about a lot of different subjects. Although the majority of the writing will be focused on web development, other areas I may venture into are music, design, games, and maybe even some personal ethical stances here and there as well.
