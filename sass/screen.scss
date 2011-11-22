@@ -59,7 +59,7 @@ nav {
 
 #page-footer { padding:15px; @include background-image(linear-gradient(lighten($text-color, 20%), lighten($text-color, 5%))); color:$background-color; @include border-radius; margin:50px 0 30px 0; 
   ul { margin:0; padding:0; }
-  li { list-style:none; display:inline; padding:0 30px 0 0; }
+  li { list-style:none; display:inline; padding:0; }
   a { @include link-colors($background-color, darken($background-color, 10%), darken($background-color, 10%), $background-color, darken($background-color, 10%)); }
 }
 
