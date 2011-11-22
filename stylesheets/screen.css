@@ -123,7 +123,7 @@ a.link_no_style:active {
 h1, h2, h3, h4 {
   font-weight: normal;
   margin-top: 1.5em;
-  font-family: Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans serif;
 }
 
 /* line 30, ../sass/screen.scss */
@@ -237,7 +237,7 @@ nav li a:active {
   color: #444444;
   border: 1px solid #a4a4a4;
   padding: 10px;
-  font-family: Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans serif;
   font-size: 0.8em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
