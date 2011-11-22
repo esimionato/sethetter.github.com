@@ -15,4 +15,4 @@ I'm personally interested in quite a variety of things, so it's likely that I wi
 
 #### Basically I'm going to talk about whatever I want to here. ####
 
-Hence the name. I've been labeled as a talked since before I could even speak words, and this is my outler. If you can get something out of it, awesome. If not, then I'm not sure what to tell you. Thanks for stopping by anyways :)
+Hence the name. I've been labeled as a talker since before I could even speak words, and this is my outlet. If you can get something out of it, awesome. If not, then I'm not sure what to tell you. Thanks for stopping by anyways :)

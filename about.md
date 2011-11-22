@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Seth - i talk too much (dot) com
+title: i talk too much - by Seth Etter
 permalink: /about/
 ---
 
@@ -17,4 +17,4 @@ Outside of the tech world, I am an active musician and a part-time teacher at Bu
 
 I have a passion for both music and technology that I love to share with my students. I hope to do the same for my audience here on this site.
 
-But aside from all that this blog is to help me document and track my personal education. Hopefully I can share some of that knowledge along the wasy as well.
+But aside from all that this blog is to help me document and track my personal education. Hopefully I can share some of that knowledge along the way as well.
