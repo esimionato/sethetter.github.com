@@ -124,6 +124,7 @@ h1, h2, h3, h4 {
   font-weight: normal;
   margin-top: 1.5em;
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans serif;
+  font-weight: bold;
 }
 
 /* line 30, ../sass/screen.scss */

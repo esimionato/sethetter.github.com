@@ -26,7 +26,7 @@ body { background:$background-color; padding:30px 20px; width:740px; margin:0 au
 a { @include link-colors($link-normal, $link-hover, $link-hover, $link-normal, $link-hover); text-decoration:none; }
 a.link_no_style { @include link-colors($link-hover, $link-hover, $link-hover, $link-hover, $link-hover); }
 
-h1, h2, h3, h4 { font-weight:normal; margin-top:1.5em; font-family:$header-fonts; }
+h1, h2, h3, h4 { font-weight:normal; margin-top:1.5em; font-family:$header-fonts; font-weight:bold; }
 h1 { font-size:2.5em; margin-bottom:0.3em; }
 h2 { font-size:1.9em; margin-bottom:0.1em;}
 h3 { font-size:1.4em; }
