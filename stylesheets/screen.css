@@ -230,32 +230,16 @@ nav li a:active {
 /* line 54, ../sass/screen.scss */
 .article-header h1 {
   padding-top: 10px;
-}
-/* line 55, ../sass/screen.scss */
-.article-header time {
-  float: left;
-  background: #d7d7d7;
-  color: #444444;
-  border: 1px solid #a4a4a4;
-  padding: 10px;
-  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans serif;
-  font-size: 0.8em;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  margin: 0 15px 0 0;
+  line-height: 1em;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .article-separator {
   border-top: 1px solid #d7d7d7;
   height: 10px;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #page-footer {
   padding: 15px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #515151));
@@ -273,18 +257,18 @@ nav li a:active {
   border-radius: 5px;
   margin: 50px 0 30px 0;
 }
-/* line 61, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 #page-footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 62, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 #page-footer li {
   list-style: none;
   display: inline;
   padding: 0;
 }
-/* line 63, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 #page-footer a {
   color: #f1f1f1;
 }
