@@ -11,9 +11,9 @@ Being able to use Flickr photo sets to manage the images in a slideshow can be v
 The first thing we need to do is get all the necessary files pulled into our HTML page that will display the slideshow. The first line is a link to the jQuery library's latest version from Google's code bank. The second line is referencing the jQuery plugin we will be using to achieve the slideshow effect. Finally we have a local CSS file that will hold our style rules.
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="utf-8"></script>
-<script src="jquery.cycle.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
+<script src="js/jqyery.cycle.js language="javascript"></script>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 ```
 
 ### Writing Markup ###
