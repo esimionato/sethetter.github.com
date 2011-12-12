@@ -10,15 +10,17 @@ Being able to use Flickr photo sets to manage the images in a slideshow can be v
 
 The first thing we need to do is get all the necessary files pulled into our HTML page that will display the slideshow. The first line is a link to the jQuery library's latest version from Google's code bank. The second line is referencing the jQuery plugin we will be using to achieve the slideshow effect. Finally we have a local CSS file that will hold our style rules.
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
-        <script src="js/jqyery.cycle.js" language="javascript"></script>
-        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+{% highlight html %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
+<script src="js/jqyery.cycle.js" language="javascript"></script>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+{% endhighlight %}
 
 ### Writing Markup ###
 
 Next we need to write the HTML elements that will actually hold our slideshow. All we really need is a 'div' element to load the photos into from Flickr, which we will also apply the slideshow effect to after they have been loaded. I've included a container div and a heading for styling purposes.
 
-{% highlight html linenos %}
+{% highlight html %}
 <div id="container">
   <h1>Flickr Slideshow</h1>
   <div id="slideshow">
@@ -30,13 +32,13 @@ Next we need to write the HTML elements that will actually hold our slideshow. A
 
 And then we want to include our javascript at the bottom of the page, like so
 
-{% highlight html linenos %}
+{% highlight html %}
 <script src="scripts.js" language="javascript"></script>
 {% endhighlight %}
 
 Next we'll include some basic styling for the elements we will have on our page. I've also used a reset and a base typographic setup as well, but I won't include those here (I do recommend using one though). This goes into our style.css file.
   
-{% highlight css linenos %}
+{% highlight css %}
 /* my styles */
 body { background:#eee; }
 #container {
@@ -60,7 +62,7 @@ body { background:#eee; }
 
 First we'll start by opening a document.ready callback. This makes sure that jQuery and the document which we will be operating on are both ready for us before we start issuing commands to them.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 $(function() {
   // code goes in here
 });
@@ -68,7 +70,7 @@ $(function() {
   
 Next we need a couple pieces of information available to our script. First, Flickr requires that any AJAX requests be signed with an API key. You can [apply to get one here][1]. I've replaced my key with 'insertyourkeyhere', so be sure to replace it with your key.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 var apiKey = 'insertyourkeyhere'
   , photoSet = '346406' // http://www.flickr.com/photos/michael_hughes/sets/346406/
   , requestUrl = 'http://api.flickr.com/services/rest/?format=json&method=flickr.photosets.getPhotos&api_key=' 
@@ -79,7 +81,7 @@ The other variables we are declaring here is the id of the photoset from Flickr 
 
 Next we will make our AJAX call using jQuery, and use that data to build a slideshow with our slideshow plugin, [jQuery Cycle][2].
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 $.getJSON(requestUrl, function(data) {
 
   $.each(data.photoset.photo, function(i, p) {
