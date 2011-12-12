@@ -93,7 +93,6 @@ pre {
   font-size:0.9em;
   margin-top:20px;
   padding:10px;
-  color:#fff;
   @include border-radius();
 }
 
@@ -107,7 +106,6 @@ pre {
 
 // Syntax Highlighting
 
-.highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
