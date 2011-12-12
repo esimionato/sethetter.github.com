@@ -236,9 +236,11 @@ nav li a:active {
   font-size: 0.8em;
   color: #6a6a6a;
   font-style: italic;
+  margin: 5px 0;
+  padding: 0;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 pre {
   background: #717171;
   font-size: 0.9em;
@@ -253,13 +255,13 @@ pre {
   border-radius: 5px;
 }
 
-/* line 98, ../sass/screen.scss */
-.article-separator {
-  border-top: 1px solid #d7d7d7;
+/* line 100, ../sass/screen.scss */
+.article_separator {
+  border-top: 1px solid #bebebe;
   height: 10px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 #page-footer {
   padding: 15px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #515151));
@@ -277,18 +279,18 @@ pre {
   border-radius: 5px;
   margin: 50px 0 30px 0;
 }
-/* line 101, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 #page-footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 102, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 #page-footer li {
   list-style: none;
   display: inline;
   padding: 0;
 }
-/* line 103, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #page-footer a {
   color: #f1f1f1;
 }
