@@ -12,7 +12,7 @@ The first thing we need to do is get all the necessary files pulled into our HTM
 
 {% highlight html %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
-<script src="js/jqyery.cycle.js" language="javascript"></script>
+<script src="js/jquery.cycle.js" language="javascript"></script>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">
 {% endhighlight %}
 
