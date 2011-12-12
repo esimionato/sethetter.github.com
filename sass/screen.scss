@@ -22,9 +22,21 @@ $base-line-height:24px;
 $default-border-radius:5px;
 
 /** ELEMENT STYLES **/
-body { background:$background-color; padding:30px 20px; width:740px; margin:0 auto; font-family:$body-fonts; color:$text-color; }
-a { @include link-colors($link-normal, $link-hover, $link-hover, $link-normal, $link-hover); text-decoration:none; }
-a.link_no_style { @include link-colors($link-hover, $link-hover, $link-hover, $link-hover, $link-hover); }
+body {
+  background:$background-color;
+  padding:30px 20px;
+  width:740px;
+  margin:0 auto;
+  font-family:$body-fonts;
+  color:$text-color;
+}
+a {
+  @include link-colors($link-normal, $link-hover, $link-hover, $link-normal, $link-hover);
+  text-decoration:none;
+}
+a.link_no_style {
+  @include link-colors($link-hover, $link-hover, $link-hover, $link-hover, $link-hover);
+}
 
 h1, h2, h3, h4 { font-weight:normal; margin-top:1.5em; font-family:$header-fonts; font-weight:bold; }
 h1 { font-size:2.5em; margin-bottom:0.3em; }
@@ -41,21 +53,41 @@ p { margin-top:1.2em; }
 }
 
 nav {
-  font-size:0.9em; padding:10px; width:100%; @include border-radius(); margin-bottom:0;
+  font-size:0.9em;
+  padding:10px;
+  width:100%;
+  @include border-radius();
+  margin-bottom:0;
   @include background-image(linear-gradient(lighten($text-color, 20%), lighten($text-color, 5%)));
   ul { margin:0; padding:0; }
-  li { display:inline; list-style:none; padding:0 15px;
-    a { @include link-colors($background-color, darken($background-color, 10%), darken($background-color, 10%), $background-color, darken($background-color, 10%)); }
+  li {
+    display:inline;
+    list-style:none;
+    padding:0 15px;
+    a {
+      @include link-colors($background-color, darken($background-color, 10%), darken($background-color, 10%), $background-color, darken($background-color, 10%));
+    }
   }
 }
 
 .article-header {
-  position:relative; margin-bottom:15px; padding-bottom:25px; border-bottom:1px solid lighten($text-color, 35%);
-  h1 { padding-top:10px; line-height:1em; }
+  position:relative;
+  margin-bottom:15px;
+  padding-bottom:25px;
+  border-bottom:1px solid lighten($text-color, 35%);
+  h1 {
+    padding-top:10px;
+    line-height:1em;
+  }
+  .postdate {
+    font-size:0.8em;
+    color:lighten($text-color, 15%);
+    font-style:italic;
+  }
 }
 
 pre {
-  background: darken($background-color, 30%);
+  background: darken($background-color, 50%);
   margin-top:20px;
   padding:10px;
   color:#fff;
