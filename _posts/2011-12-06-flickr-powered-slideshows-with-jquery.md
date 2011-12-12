@@ -71,7 +71,8 @@ Next we need a couple pieces of information available to our script. First, Flic
 {% highlight javascript %}
 var apiKey = 'insertyourkeyhere'
   , photoSet = '346406' // http://www.flickr.com/photos/michael_hughes/sets/346406/
-  , requestUrl = 'http://api.flickr.com/services/rest/?format=json&method=flickr.photosets.getPhotos&api_key=' + apiKey + '&photoset_id=' + photoSet + '&jsoncallback=?';
+  , requestUrl = 'http://api.flickr.com/services/rest/?format=json&method=flickr.photosets.getPhotos&api_key=' 
+  + apiKey + '&photoset_id=' + photoSet + '&jsoncallback=?';
 {% endhighlight %}
 
 The other variables we are declaring here is the id of the photoset from Flickr that we want to feed photos to our slideshow, and our fully constructed request URL that we will get our photos from. Here I am using a randomly selected photo set that seemed to work well with what we were doing here. The request URL includes some parameters to tell Flickr we want our data in JSON format, and we pass our apiKey and the photoset ID.
