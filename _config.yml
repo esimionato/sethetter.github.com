@@ -1,11 +1,6 @@
-pygments: true
-
-permalink: /:year/:month/:title/
-exclude: []
-
 title: 'i talk too much'
 email: 'sethetter@gmail.com'
 twitter_url: 'http://twitter.com/sethetter'
 feedburner_url: 'http://feeds.feedburner.com/italktoomuch'
-
+permalink: /:year/:month/:title/
 tagline: "Ramblings on code, tech, design, music, and some other stuff. By Seth Etter."
