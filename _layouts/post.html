@@ -6,7 +6,7 @@ layout: default
 		
 	<header class="article-header">
 		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-		<p class="postdate">{{ page.date }}</p>
+		<p class="postdate">{{ page.date | date: "%d %B %Y" }}</p>
 	</header>
 		
 	{{ content }}
