@@ -4,3 +4,4 @@ sass
 _site/
 config.rb
 _drafts/
+.DS_Store
