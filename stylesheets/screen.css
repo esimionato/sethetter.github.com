@@ -299,7 +299,7 @@ nav li a:active {
 
 /* line 101, ../sass/screen.scss */
 .highlight {
-  background: #222;
+  background: #0f132b;
   font-size: 0.9em;
   margin-top: 20px;
   padding: 10px;
@@ -314,12 +314,12 @@ nav li a:active {
 
 /* line 109, ../sass/screen.scss */
 .hll {
-  background-color: #e6e1dc;
+  background-color: #384b87;
 }
 
 /* line 110, ../sass/screen.scss */
 .c {
-  color: #bc9458;
+  color: #bcbcbc;
   font-style: italic;
 }
 
@@ -345,7 +345,7 @@ nav li a:active {
 /* Operator */
 /* line 114, ../sass/screen.scss */
 .cm {
-  color: #bc9458;
+  color: #bcbcbc;
   font-style: italic;
 }
 
@@ -358,14 +358,14 @@ nav li a:active {
 /* Comment.Preproc */
 /* line 116, ../sass/screen.scss */
 .c1 {
-  color: #bc9458;
+  color: #bcbcbc;
   font-style: italic;
 }
 
 /* Comment.Single */
 /* line 117, ../sass/screen.scss */
 .cs {
-  color: #bc9458;
+  color: #bcbcbc;
   font-style: italic;
 }
 
@@ -435,34 +435,34 @@ nav li a:active {
 /* Generic.Traceback */
 /* line 128, ../sass/screen.scss */
 .kc {
-  color: #00B000;
+  color: #f7e64a;
   font-weight: bold;
 }
 
 /* Keyword.Constant */
 /* line 129, ../sass/screen.scss */
 .kd {
-  color: #00B000;
+  color: #f7e64a;
   font-weight: bold;
 }
 
 /* Keyword.Declaration */
 /* line 130, ../sass/screen.scss */
 .kn {
-  color: #00B000;
+  color: #f7e64a;
   font-weight: bold;
 }
 
 /* Keyword.Namespace */
 /* line 131, ../sass/screen.scss */
 .kp {
-  color: #00B000;
+  color: #f7e64a;
 }
 
 /* Keyword.Pseudo */
 /* line 132, ../sass/screen.scss */
 .kr {
-  color: #00B000;
+  color: #f7e64a;
   font-weight: bold;
 }
 
@@ -475,13 +475,13 @@ nav li a:active {
 /* Keyword.Type */
 /* line 134, ../sass/screen.scss */
 .m {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.Number */
 /* line 135, ../sass/screen.scss */
 .s {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String */
@@ -518,7 +518,7 @@ nav li a:active {
 /* Name.Decorator */
 /* line 141, ../sass/screen.scss */
 .ni {
-  color: #BBBBBB;
+  color: #f77a20;
   font-weight: bold;
 }
 
@@ -563,7 +563,7 @@ nav li a:active {
 
 /* line 148, ../sass/screen.scss */
 .nv {
-  color: #19177C;
+  color: #ffffff;
 }
 
 /* Name.Variable */
@@ -576,7 +576,7 @@ nav li a:active {
 /* Operator.Word */
 /* line 150, ../sass/screen.scss */
 .w {
-  color: #bbbbbb;
+  color: #f77a20;
 }
 
 /* Text.Whitespace */
@@ -606,26 +606,26 @@ nav li a:active {
 /* Literal.Number.Oct */
 /* line 155, ../sass/screen.scss */
 .sb {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String.Backtick */
 /* line 156, ../sass/screen.scss */
 .sc {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String.Char */
 /* line 157, ../sass/screen.scss */
 .sd {
-  color: #a5c261;
+  color: #7ad753;
   font-style: italic;
 }
 
 /* Literal.String.Doc */
 /* line 158, ../sass/screen.scss */
 .s2 {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String.Double */
@@ -638,7 +638,7 @@ nav li a:active {
 /* Literal.String.Escape */
 /* line 160, ../sass/screen.scss */
 .sh {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String.Heredoc */
@@ -651,7 +651,7 @@ nav li a:active {
 /* Literal.String.Interpol */
 /* line 162, ../sass/screen.scss */
 .sx {
-  color: #00B000;
+  color: #f7e64a;
 }
 
 /* Literal.String.Other */
@@ -663,37 +663,37 @@ nav li a:active {
 /* Literal.String.Regex */
 /* line 164, ../sass/screen.scss */
 .s1 {
-  color: #a5c261;
+  color: #7ad753;
 }
 
 /* Literal.String.Single */
 /* line 165, ../sass/screen.scss */
 .ss {
-  color: #19177C;
+  color: #ffffff;
 }
 
 /* Literal.String.Symbol */
 /* line 166, ../sass/screen.scss */
 .bp {
-  color: #00B000;
+  color: #f7e64a;
 }
 
 /* Name.Builtin.Pseudo */
 /* line 167, ../sass/screen.scss */
 .vc {
-  color: #19177C;
+  color: #ffffff;
 }
 
 /* Name.Variable.Class */
 /* line 168, ../sass/screen.scss */
 .vg {
-  color: #19177C;
+  color: #ffffff;
 }
 
 /* Name.Variable.Global */
 /* line 169, ../sass/screen.scss */
 .vi {
-  color: #19177C;
+  color: #ffffff;
 }
 
 /* Name.Variable.Instance */
@@ -713,3 +713,17 @@ body {
 html > body {
   font-size: 16px;
 }
+
+/* blackboard textmate style
+
+Comment: #bcbcbc
+Constant: #defc59
+Entity: #f77a20
+Keyword: #f7e64a
+Storage: #f7e64a
+String: #7ad753
+Support: #a2b4d6
+Variable: #ffffff
+Invalid: #b33b2c
+
+*/
