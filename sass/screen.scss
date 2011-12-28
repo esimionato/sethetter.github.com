@@ -101,6 +101,7 @@ nav {
 .highlight  {
   background: #0f132b;
   font: 12px 'Bitstream Vera Sans Mono','Courier',monospace;
+  overflow:hidden;
   padding:10px;
   @include border-radius();
   color:#fff;
