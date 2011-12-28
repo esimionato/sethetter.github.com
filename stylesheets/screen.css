@@ -302,7 +302,7 @@ nav li a:active {
 .highlight {
   background: #0f132b;
   margin-top: 20px;
-  font: 12px/14px "Bitstream Vera Sans Mono", "Courier", monospace;
+  font: 12px/18px "Bitstream Vera Sans Mono", "Courier", monospace;
   overflow: hidden;
   padding: 10px;
   -moz-border-radius: 5px;

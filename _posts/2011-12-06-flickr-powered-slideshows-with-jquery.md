@@ -11,8 +11,8 @@ Being able to use Flickr photo sets to manage the images in a slideshow can be v
 The first thing we need to do is get all the necessary files pulled into our HTML page that will display the slideshow. The first line is a link to the jQuery library's latest version from Google's code bank. The second line is referencing the jQuery plugin we will be using to achieve the slideshow effect. Finally we have a local CSS file that will hold our style rules.
 
 {% highlight html %}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" language="javascript"></script>
-<script src="js/jquery.cycle.js" language="javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/jquery.cycle.js"></script>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">
 {% endhighlight %}
 
@@ -73,7 +73,8 @@ Next we need a couple pieces of information available to our script. First, Flic
 {% highlight javascript %}
 var apiKey = 'insertyourkeyhere'
   , photoSet = '346406' // http://www.flickr.com/photos/michael_hughes/sets/346406/
-  , requestUrl = 'http://api.flickr.com/services/rest/?format=json&method=flickr.photosets.getPhotos&api_key=' 
+  , requestUrl = 'http://api.flickr.com/services/rest/?format=json'
+                 + '&method=flickr.photosets.getPhotos&api_key=' 
   + apiKey + '&photoset_id=' + photoSet + '&jsoncallback=?';
 {% endhighlight %}
 
@@ -86,7 +87,8 @@ $.getJSON(requestUrl, function(data) {
 
   $.each(data.photoset.photo, function(i, p) {
 
-    var url = 'http://farm' + p.farm + '.static.flickr.com/' + p.server + '/' + p.id + '_' + p.secret + '_m.jpg';
+    var url = 'http://farm' + p.farm + '.static.flickr.com/'
+			        + p.server + '/' + p.id + '_' + p.secret + '_m.jpg';
     var photo = '<img src="' + url + '">';
 
     $(photo).appendTo('#slideshow');
