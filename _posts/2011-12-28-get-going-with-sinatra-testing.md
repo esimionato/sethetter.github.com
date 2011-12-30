@@ -1,5 +1,5 @@
 ---
-title: Get Going With Sinatra: Testing
+title: Get Going With Sinatra - Testing
 layout: post
 categories: [ ruby, sinatra ]
 ---
@@ -37,7 +37,7 @@ require 'sinatra'
 get '/' do
   'Hello world!'
 end
-{% endhiglight %}
+{% endhighlight %}
 
 This is the most basic and stripped down Sinatra application we could possibly create. Sinatra is beautiful in it's simplicity and yet strong in it's utility and flexibity. I find developing with it to be very enjoyable.
 
