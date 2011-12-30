@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Get Going With Sinatra: Testing
-tags: ruby, sinatra, rspec
+layout: post
+categories: [ ruby, sinatra ]
 ---
 
 When I first began my journey down the road of server-side development I had taken my aim at Rails to be the primary focus of my education. However, as I went on I realized more and more that I didn't like how much was happening behind the scenes. I felt like I was missing out on valuable bits of knowledge.
