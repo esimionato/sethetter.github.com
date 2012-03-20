@@ -78,6 +78,7 @@ nav {
   h1 {
     padding-top:10px;
     line-height:1em;
+    a { @include link-colors($link-hover, $link-normal, $link-normal, $link-hover, $link-normal); }
   }
   .postdate {
     font-size:0.8em;
