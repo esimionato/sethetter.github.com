@@ -11,11 +11,16 @@ title: i talk too much - by Seth Etter
 		  <p class="postdate">{{ post.date | date: "%d %B %Y" }}</p>
 		</header>
 
-		<div class="post-content">{{ post.content }}</div><!-- .post-content -->
+		<div class="post-content">
+      {{ post.content }}
+    	<p class="view-comments">
+        <a href="{{ post.url }}#comments">View or post comments.</a>
+      </p><!-- .view-comments -->
+    </div><!-- .post-content -->
 
 	</article>
 	
-	<p class="view-comments"><a href="{{ post.url }}#comments">View or post comments.</a></p>
+
 	
 	{% unless forloop.last %}
 		<div class="article_seperator"></div>
