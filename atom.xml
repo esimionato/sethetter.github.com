@@ -8,8 +8,8 @@ layout: nil
 <title>{{ site.title }}</title>
 <subtitle>{{ site.tagline }}</subtitle>
 <icon>/images/favicon.png</icon>
-<link href="http://bnjmn.org/" />
-<link href="http://bnjmn.org/atom.xml" rel="self" />
+<link href="http://italktoomuch.org/" />
+<link href="http://italktoomuch.org/atom.xml" rel="self" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>http://italktoomuch.com/</id>
 <author>
@@ -20,7 +20,7 @@ layout: nil
 {% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://bnjmn.org{{ post.url }}" />
+		<link href="http://italktoomuch.org{{ post.url }}" />
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://italktoomuch.com/{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
