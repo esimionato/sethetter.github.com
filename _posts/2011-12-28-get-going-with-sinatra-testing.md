@@ -20,7 +20,7 @@ $> mkdir lib
 $> touch spec/spec.opts spec/spec_helper.rb spec/app_spec.rb lib/app.rb Gemfile
 {% endhighlight %}
 
-Next we need to make sure we have our dependencies installed. We will be installing them using bundler, a tool for installing ruby gem packages. If you don't have rubygems installed, go do that [first][3]. If you have it installed already, go ahead and enter the following into your Gemfile:
+Next we need to make sure we have our dependencies installed. We will be installing them using bundler, a tool for installing ruby gem packages. If you don't have `rubygems` installed, go do that [first][3]. If you have it installed already, go ahead and enter the following into your Gemfile:
 
 {% highlight ruby %}
 source :rubygems
