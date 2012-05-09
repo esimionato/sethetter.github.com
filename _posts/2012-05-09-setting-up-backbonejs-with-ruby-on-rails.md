@@ -295,7 +295,7 @@ We make sure to `return this` at the end of our `render` function so that we can
 
 At the top we have an `events` object that accepts key/value pairs of what events to listen for, and what functions to run upon their firing. In this case the only one we need to listen for is when we submit the form to enter a new post. We listen for the event, and then pass the event object to the `createPost` function. That function then takes the content from the form's fields and calls `collection.create()` with the appropriate properties and some options for what to upon success or error.
 
-...removepostfunction
+Under our `createPost` function is our `removePost` function. We also have a reference to this function within our `events` object that allows it to be triggered by clicking on the link with the class of `remove-post`. The function we call simply finds the `id` of the target link that is clicked, which we populat in our template with the corresponding post id. It then uses this id to make a `destroy` call to our backbone app, which does the same to the server.
 
 Lastly we have a `handleError` function that does as it is named: handles errors. If we are returned an error, and the status code is 422 (Unprocessable Entity) then we launch an alert box for each of errors returned on a given attribute.
 
