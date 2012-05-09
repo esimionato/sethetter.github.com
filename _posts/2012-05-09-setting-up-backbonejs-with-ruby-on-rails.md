@@ -303,7 +303,7 @@ Lastly we have a `handleError` function that does as it is named: handles errors
 
 Our client side application is configured, as well as our back end in Rails. The last thing we need is the [EJS](http://embeddedjs.com/) template file. This will be located in `app/assets/templates/posts/index.jst.ejs`. Inside this file will be the HTML that the backbone view will populate with our JSON data. EJS stands for Embedded Javascript, meaning we can place javascript code handling the JSON data directly in our markup. Like so:
 
-{% highlight javascript %}
+{% highlight html %}
 <h2>Create a new Post</h2>
 
 <form id="new-post">
