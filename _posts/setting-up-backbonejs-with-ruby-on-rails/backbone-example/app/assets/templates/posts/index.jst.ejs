@@ -1,0 +1,21 @@
+<h2>Create a new Post</h2>
+
+<form id="new-post">
+  <p>
+    <label for="new-post-title">Title</label>
+    <input name="new-post-title" id="new-post-title" type="text">
+  </p>
+  <textarea name="new-post-content" id="new-post-content"></textarea>
+  <input type="submit">
+</form><!-- #new-post -->
+
+<hr>
+
+<% for (var i = 0, len = posts.models.length; i < len; i++) { %>
+  <div class="post">
+    <h3><%= posts.models[i].get('title') %></h3>
+    <p><%= posts.models[i].get('content') %></p>
+    <p><a href="#" class="remove-post" id="<%= posts.models[i].get('id') %>">Remove Post</a></p>
+  </div><!-- .post -->
+  <hr>
+<% } %>
