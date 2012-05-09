@@ -324,6 +324,7 @@ nav li a:active {
 }
 
 /* line 106, ../sass/screen.scss */
+code { font-family: "Courier", monospace; }
 .highlight {
   background: #0f132b;
   margin-top: 20px;
