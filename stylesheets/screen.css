@@ -220,18 +220,23 @@ nav li a:active {
   color: #d7d7d7;
 }
 
+#content-section {
+  margin-top:35px;
+}
+
 /* line 73, ../sass/screen.scss */
 .article-header {
   position: relative;
-  margin-bottom: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #9d9d9d;
 }
 /* line 78, ../sass/screen.scss */
 .article-header h1 {
-  padding-top: 10px;
+  padding-top: 20px;
   line-height: 1em;
+  margin-top:0;
 }
+
 /* line 81, ../sass/screen.scss */
 .article-header h1 a {
   color: #5c5c24;

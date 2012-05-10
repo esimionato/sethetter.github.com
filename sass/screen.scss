@@ -72,12 +72,12 @@ nav {
 
 .article-header {
   position:relative;
-  margin-bottom:15px;
-  padding-bottom:25px;
+  padding-bottom:15px;
   border-bottom:1px solid lighten($text-color, 35%);
   h1 {
     padding-top:10px;
     line-height:1em;
+    margin-top:0;
     a { @include link-colors($link-hover, $link-normal, $link-normal, $link-hover, $link-normal); }
   }
   .postdate {
@@ -87,6 +87,10 @@ nav {
     margin:5px 0 0 0;
     padding:0;
   }
+}
+
+#content-section {
+  margin-bottom: 35px;
 }
 
 .view-comments a {
