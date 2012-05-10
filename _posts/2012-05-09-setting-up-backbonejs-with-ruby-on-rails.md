@@ -78,19 +78,19 @@ Next we see the `backbone_example.js` file included, this is our primary applica
 The next thing we want to do is create a resource. For this example we'll create a resource called `post`. Whenever we create a resource, there are multiple files we will need as boilerplate. Using backbone-on-rails' scaffold generator can take care of this for us.
 
 {% highlight sh %}
-$> rails g backbone:scaffold post
+$> rails g backbone:scaffold post --javascript
 {% endhighlight %}
 
 Which should the following output:
 
 {% highlight sh %}
-create  app/assets/javascripts/models/post.js.coffee
-create  app/assets/javascripts/collections/posts.js.coffee
-create  app/assets/javascripts/routers/posts_router.js.coffee
+create  app/assets/javascripts/models/post.js
+create  app/assets/javascripts/collections/posts.js
+create  app/assets/javascripts/routers/posts_router.js
 create  app/assets/javascripts/views/posts
-create  app/assets/javascripts/views/posts/posts_index.js.coffee
+create  app/assets/javascripts/views/posts/posts_index.js
 create  app/assets/templates/posts
-create  app/assets/templates/posts/index.jst.eco
+create  app/assets/templates/posts/index.jst.ejs
 {% endhighlight %}
 
 Now we also need to create the resource on our server in our Rails app. We can do this with the following command:
